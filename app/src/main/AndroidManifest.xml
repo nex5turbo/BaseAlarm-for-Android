@@ -22,12 +22,6 @@
             </intent-filter>
         </activity>
         <receiver android:name=".AlarmReceiver"/>
-
-        <service android:name=".AlarmService">
-            <intent-filter>
-                <action android:name="alarm_alert"/>
-            </intent-filter>
-        </service>
     </application>
 
 </manifest>
